@@ -9,28 +9,23 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Login to Browser, display Product version</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">5,749</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Login to Browser, display Product version</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">22</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login to Browser, display Product version &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="3">com.trifacta.scripts.Home</td><td><a href="#m0">afterSuite</a></td><td rowspan="1">1598469589030</td><td rowspan="1">525</td></tr><tr class="failedeven"><td><a href="#m1">closeSession</a></td><td rowspan="2">1598469588970</td><td rowspan="2">0</td></tr><tr class="failedeven"><td><a href="#m2">closeSession</a></td></tr><tr><th colspan="4">Login to Browser, display Product version &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.trifacta.scripts.Home</td><td><a href="#m3">TC_01</a></td><td rowspan="1">1598469588857</td><td rowspan="1">106</td></tr><tr class="passedeven"><td><a href="#m4">TC_02</a></td><td rowspan="1">1598469588855</td><td rowspan="1">108</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login to Browser, display Product version &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.trifacta.scripts.Home</td><td><a href="#m0">TC_01</a></td><td rowspan="1">1598470660183</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m1">TC_02</a></td><td rowspan="1">1598470660183</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Login to Browser, display Product version</h2><h3 id="m0">com.trifacta.scripts.Home#afterSuite</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at java.base/java.io.File.&lt;init&gt;(File.java:279)
-	at com.trifacta.browser.RemoteConfiguration.shutDownRemote(RemoteConfiguration.java:86)
-	at com.trifacta.scripts.BaseTest.afterSuite(BaseTest.java:48)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.trifacta.scripts.Home#closeSession</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.trifacta.scripts.BaseTest.closeSession(BaseTest.java:30)
+<h2>Login to Browser, display Product version</h2><h3 id="m0">com.trifacta.scripts.Home#TC_01</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [TC_01] with [class java.util.Hashtable].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.trifacta.scripts.Home#closeSession</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.trifacta.scripts.BaseTest.closeSession(BaseTest.java:30)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.trifacta.scripts.Home#TC_02</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [TC_02] with [class java.util.Hashtable].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.trifacta.scripts.Home#TC_01</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Test.12345 , TestCaseName=TC_01, username=nehat181@gmail.com, Url=https://cloud.trifacta.com/sign-in }</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.trifacta.scripts.Home#TC_02</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Test.12345 , TestCaseName=TC_02, username=nehat181@gmail.com, Url=https://cloud.trifacta.com/sign-in }</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <listener class-name="com.trifacta.listeners.Listener"/>
     <listener class-name="com.trifacta.listeners.AnnotationTransformer"/>
   </listeners>
-  <test thread-count="2" parallel="methods" name="Login to Browser, display Product version and Logout(failed)">
+  <test thread-count="2" parallel="methods" name="Login to Browser, display Product version(failed)">
     <classes>
       <class name="com.trifacta.scripts.Home">
         <methods>
@@ -18,5 +18,5 @@
         </methods>
       </class> <!-- com.trifacta.scripts.Home -->
     </classes>
-  </test> <!-- Login to Browser, display Product version and Logout(failed) -->
+  </test> <!-- Login to Browser, display Product version(failed) -->
 </suite> <!-- Failed suite [Suite] -->

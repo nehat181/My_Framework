@@ -56,8 +56,9 @@ public class Driver {
 		try {
 			switch(browser) {
 			case "Chrome":
-				
-				System.setProperty("webdriver.chrome.driver", ReadPropertyFile.get("ChromeDriverPath"));
+				String path=System.getProperty("user.dir")+ReadPropertyFile.get("ChromeDriverPath");
+				System.out.println(path);
+				System.setProperty("webdriver.chrome.driver",path);
 				driver=new ChromeDriver();
 				break;
 								
