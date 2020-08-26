@@ -8,6 +8,8 @@ services:
     ports:
       - "4444:4444"
   chrome:
+    ports:
+      - 32771:5900
     image: selenium/node-chrome-debug:latest
     volumes:
       - /dev/shm:/dev/shm

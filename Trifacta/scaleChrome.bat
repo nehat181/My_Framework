@@ -1,1 +1,1 @@
-docker-compose -f docker-compose.yaml scale chrome=4
+docker-compose -f docker-compose.yaml scale chrome=2

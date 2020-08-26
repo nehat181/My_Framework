@@ -1,6 +1,7 @@
 com\trifacta\utils\ReadPropertyFile.class
 com\trifacta\utils\Assertion.class
 com\trifacta\browser\Driver.class
+com\trifacta\browser\RemoteConfiguration.class
 com\trifacta\utils\BrowserActions.class
 com\trifacta\pages\HomePage.class
 com\trifacta\listeners\EventCapture.class

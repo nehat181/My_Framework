@@ -164,11 +164,11 @@
     &lt;listener class-name=&quot;com.trifacta.listeners.Listener&quot;/&gt;
     &lt;listener class-name=&quot;com.trifacta.listeners.AnnotationTransformer&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;Login to Browser, display Product version and Logout&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;Login to Browser, display Product version&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.trifacta.scripts.Home&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login to Browser, display Product version and Logout --&gt;
+  &lt;/test&gt; &lt;!-- Login to Browser, display Product version --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -180,7 +180,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login to Browser, display Product version and Logout (1 class)</span>
+                <span class="test-name">Login to Browser, display Product version (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,16 +210,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TC_01')
 data.setCell(0, 2, 'com.trifacta.scripts.Home')
-data.setCell(0, 3, 39001);
+data.setCell(0, 3, 33);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TC_02')
 data.setCell(1, 2, 'com.trifacta.scripts.Home')
-data.setCell(1, 3, 30970);
+data.setCell(1, 3, 32);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 65 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -252,31 +252,35 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">20187 ms</span>
+                <span class="method-start">20188 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">20187 ms</span>
+                <span class="method-start">20188 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_01({password=Test.12345 , TestCaseName=TC_01, username=nehat181@gmail.com, Url=https://cloud.trifacta.c...)</span>
-                <span class="method-start">26906 ms</span>
+                <span class="method-start">80798 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC_02({password=Test.12345 , TestCaseName=TC_02, username=nehat181@gmail.com, Url=https://cloud.trifacta.c...)</span>
-                <span class="method-start">30461 ms</span>
+                <span class="method-start">80799 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">closeSession</span>
-                <span class="method-start">61434 ms</span>
+                <span class="method-start">80833 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">closeSession</span>
-                <span class="method-start">65908 ms</span>
+                <span class="method-start">80833 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">66046 ms</span>
+                <span class="method-start">80859 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
