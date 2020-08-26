@@ -54,7 +54,7 @@ public class TestUtils {
 
 	public static void getRunStatus() throws Exception {
 		try {
-			File file = new File(ReadPropertyFile.get("TestDataLocation"));    
+			File file = new File(System.getProperty("user.dir")+ReadPropertyFile.get("TestDataLocation"));    
 			if (file.exists()) {
 			fs=new FileInputStream(file);
 			
