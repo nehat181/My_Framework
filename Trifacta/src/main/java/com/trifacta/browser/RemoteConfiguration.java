@@ -83,7 +83,7 @@ public class RemoteConfiguration {
 			}
 		}
 		
-		File file=new File("output.txt");
+		File file=new File(System.getProperty("user.dir"+"/output.txt"));
 		if(file.exists()) {
 			System.out.println("file deleted");
 			file.delete();

@@ -12,7 +12,6 @@ public class ReadPropertyFile {
 		String propertyValue="";
 		Properties property=new Properties();
 		String input=System.getProperty("user.dir")+"/src/test/resources/config.properties";
-		System.out.println(input);
 		FileInputStream fi=new FileInputStream(input);
 		property.load(fi);
 		try {
