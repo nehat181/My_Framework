@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="115.609" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\neha.tiwari\git\trifacta\Trifacta"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\neha.tiwari\git\trifacta\Trifacta"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="basedir" value="C:\Users\neha.tiwari\git\trifacta\Trifacta"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\NEHA~1.TIW\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\neha.tiwari\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15719954485990694775.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-14.0.1/bin/server;C:/Program Files/Java/jdk-14.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Ant\apache-ant-1.10.8\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Windows\System32;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\neha.tiwari\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_251\bin;D:\Salesforce CLI\bin;C:\Users\neha.tiwari\AppData\Roaming\npm;C:\Program Files\Salesforce CLI\bin;C:\Users\neha.tiwari\AppData\Local\Yarn\bin;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\neha.tiwari\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;;C:\Users\neha.tiwari\eclipse\java-2020-03\eclipse;;."/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="surefire.test.class.path" value="C:\Users\neha.tiwari\git\trifacta\Trifacta\target\test-classes;C:\Users\neha.tiwari\git\trifacta\Trifacta\target\classes;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-6\selenium-java-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-6\selenium-api-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-6\selenium-chrome-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\neha.tiwari\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\neha.tiwari\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\neha.tiwari\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\neha.tiwari\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\neha.tiwari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\neha.tiwari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\neha.tiwari\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\neha.tiwari\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\neha.tiwari\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-6\selenium-chromium-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-6\selenium-devtools-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-6\selenium-http-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-6\selenium-json-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-6\selenium-edge-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-6\selenium-edgehtml-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-6\selenium-firefox-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-6\selenium-firefox-xpi-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-6\selenium-ie-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-6\selenium-opera-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-6\selenium-remote-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\com\squareup\okhttp3\okhttp\4.5.0\okhttp-4.5.0.jar;C:\Users\neha.tiwari\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.70\kotlin-stdlib-1.3.70.jar;C:\Users\neha.tiwari\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\neha.tiwari\.m2\repository\com\squareup\okio\okio\2.6.0\okio-2.6.0.jar;C:\Users\neha.tiwari\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.70\kotlin-stdlib-common-1.3.70.jar;C:\Users\neha.tiwari\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\neha.tiwari\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\neha.tiwari\.m2\repository\io\grpc\grpc-context\1.28.0\grpc-context-1.28.0.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-buffer\4.1.49.Final\netty-buffer-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-common\4.1.49.Final\netty-common-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-codec-http\4.1.49.Final\netty-codec-http-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-codec\4.1.49.Final\netty-codec-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final-linux-x86_64.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final-osx-x86_64.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.49.Final\netty-transport-native-unix-common-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-transport\4.1.49.Final\netty-transport-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-resolver\4.1.49.Final\netty-resolver-4.1.49.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\opentelemetry\opentelemetry-api\0.4.0\opentelemetry-api-0.4.0.jar;C:\Users\neha.tiwari\.m2\repository\io\opentelemetry\opentelemetry-context-prop\0.4.0\opentelemetry-context-prop-0.4.0.jar;C:\Users\neha.tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.4.0\opentelemetry-sdk-0.4.0.jar;C:\Users\neha.tiwari\.m2\repository\io\projectreactor\netty\reactor-netty\0.9.6.RELEASE\reactor-netty-0.9.6.RELEASE.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-codec-http2\4.1.48.Final\netty-codec-http2-4.1.48.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-handler-proxy\4.1.48.Final\netty-handler-proxy-4.1.48.Final.jar;C:\Users\neha.tiwari\.m2\repository\io\projectreactor\reactor-core\3.3.5.RELEASE\reactor-core-3.3.5.RELEASE.jar;C:\Users\neha.tiwari\.m2\repository\net\bytebuddy\byte-buddy\1.10.9\byte-buddy-1.10.9.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\neha.tiwari\.m2\repository\org\asynchttpclient\async-http-client\2.12.1\async-http-client-2.12.1.jar;C:\Users\neha.tiwari\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.1\async-http-client-netty-utils-2.12.1.jar;C:\Users\neha.tiwari\.m2\repository\io\netty\netty-codec-socks\4.1.48.Final\netty-codec-socks-4.1.48.Final.jar;C:\Users\neha.tiwari\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\neha.tiwari\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-6\selenium-safari-driver-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-6\selenium-support-4.0.0-alpha-6.jar;C:\Users\neha.tiwari\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\neha.tiwari\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\neha.tiwari\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\neha.tiwari\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\neha.tiwari\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\neha.tiwari\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\neha.tiwari\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\neha.tiwari\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\neha.tiwari\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\neha.tiwari\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\neha.tiwari\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\neha.tiwari\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\neha.tiwari\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\neha.tiwari\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\neha.tiwari\.m2\repository\javax\mail\javax.mail-api\1.6.0\javax.mail-api-1.6.0.jar;C:\Users\neha.tiwari\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\neha.tiwari\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\neha.tiwari\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\neha.tiwari\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\neha.tiwari\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\neha.tiwari\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\neha.tiwari\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.18.1\surefire-testng-utils-2.18.1.jar;C:\Users\neha.tiwari\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.18.1\surefire-grouper-2.18.1.jar;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\neha.tiwari"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="neha.tiwari"/>
+    <property name="java.class.path" value="C:\Users\neha.tiwari\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.15.0.20200310-1832\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="webdriver.chrome.driver" value="./src/test/resources/chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\neha.tiwari\git\trifacta\Trifacta\EMBEDDED"/>
+    <property name="localRepository" value="C:\Users\neha.tiwari\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TC_02" classname="com.trifacta.scripts.Home" time="37.566">
+    <failure message="The following asserts failed:&#10;null" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+null
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at com.trifacta.utils.Assertion.assertAll(Assertion.java:17)
+	at com.trifacta.scripts.Home.TC_02(Home.java:52)
+</failure>
+    <system-out><![CDATA[0    [main] INFO  com.trifacta.listeners.Listener  - Login to Browser, display Product version and Logout testcase has started executing
+138  [pool-1-thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+142  [pool-1-thread-2] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+142  [pool-1-thread-2] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+145  [pool-1-thread-2] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6dc8ea4f
+160  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - Platform: Windows
+161  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+161  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 14
+162  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+162  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+163  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+163  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:233)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:227)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32)
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:39)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:86)
+	at org.openqa.selenium.remote.http.HttpClient$Factory.createClient(HttpClient.java:80)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:72)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:63)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.trifacta.browser.Driver.setWebDriverLocal(Driver.java:61)
+	at com.trifacta.browser.Driver.<init>(Driver.java:25)
+	at com.trifacta.browser.Driver.initDriver(Driver.java:123)
+	at com.trifacta.scripts.BaseTest.setup(BaseTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+167  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+167  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1b7332a7
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:647)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:347)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:338)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32)
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:39)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:86)
+	at org.openqa.selenium.remote.http.HttpClient$Factory.createClient(HttpClient.java:80)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:72)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:63)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.trifacta.browser.Driver.setWebDriverLocal(Driver.java:61)
+	at com.trifacta.browser.Driver.<init>(Driver.java:25)
+	at com.trifacta.browser.Driver.initDriver(Driver.java:123)
+	at com.trifacta.scripts.BaseTest.setup(BaseTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+169  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+169  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+180  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - maxDirectMemory: 4263510016 bytes (maybe)
+181  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: C:\Users\NEHA~1.TIW\AppData\Local\Temp (java.io.tmpdir)
+181  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+182  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: -1 bytes
+182  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+182  [pool-1-thread-2] DEBUG io.netty.util.internal.CleanerJava9  - java.nio.ByteBuffer.cleaner(): available
+182  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+188  [pool-1-thread-2] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+210  [pool-1-thread-2] DEBUG io.netty.handler.ssl.JdkSslContext  - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+210  [pool-1-thread-2] DEBUG io.netty.handler.ssl.JdkSslContext  - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+227  [pool-1-thread-2] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+227  [pool-1-thread-2] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+232  [pool-1-thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 16
+242  [pool-1-thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+242  [pool-1-thread-2] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+283  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 16
+283  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 16
+283  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+283  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: true
+284  [pool-1-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+291  [pool-1-thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+292  [pool-1-thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+292  [pool-1-thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+1032 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 11068 (auto-detected)
+1033 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+1033 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+1049 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+1049 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+1077 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: a0:51:0b:ff:fe:fc:3d:11 (auto-detected)
+1114 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkAccessible: true
+1114 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkBounds: true
+1114 [AsyncHttpClient-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@17fd34ea
+1136 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxCapacityPerThread: 4096
+1136 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+1137 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.linkCapacity: 16
+1137 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.ratio: 8
+3913 [pool-1-thread-2] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0xcfa11072e8f0d72e
+11349 [pool-1-thread-2] INFO  com.trifacta.listeners.Listener  - TC_02 has started
+11806 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - Entered nehat181@gmail.com
+12374 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - Entered Test.12345 
+12820 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - clicked
+13657 [pool-1-thread-1] INFO  com.trifacta.listeners.Listener  - TC_01 has started
+14082 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - Entered nehat181@gmail.com
+14588 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - Entered Test.12345 
+15028 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - clicked
+25331 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - clicked
+25988 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - clicked
+26528 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - clicked
+27307 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - clicked
+36808 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - Text read 7.6.0+52.20200819171647.b26f63d
+37600 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - clicked
+38037 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - Text read 7.6.0+52.20200819171647.b26f63d
+38520 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - clicked
+38854 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - clicked
+39578 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - clicked
+40876 [pool-1-thread-2] INFO  com.trifacta.utils.BrowserActions  - clicked
+41863 [pool-1-thread-1] INFO  com.trifacta.utils.BrowserActions  - clicked
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not find value for key log4j.appender.INFO
+log4j:ERROR Could not instantiate appender named "INFO".
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 29537
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 16896
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Aug 26, 2020 1:24:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 26, 2020 1:24:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC_01" classname="com.trifacta.scripts.Home" time="38.596">
+    <failure message="The following asserts failed:&#10;null" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+null
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at com.trifacta.utils.Assertion.assertAll(Assertion.java:17)
+	at com.trifacta.scripts.Home.TC_01(Home.java:29)
+</failure>
+    <system-err><![CDATA[Aug 26, 2020 1:25:08 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:821)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+]]></system-err>
+  </testcase>
+  <testcase name="afterSuite" classname="com.trifacta.scripts.Home" time="39.447">
+    <failure message="java/sql/Date" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: java/sql/Date
+	at freemarker.core.BuiltinVariable._eval(BuiltinVariable.java:200)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.BuiltInsForMultipleTypes$dateBI._eval(BuiltInsForMultipleTypes.java:208)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.BuiltInsForMultipleTypes$stringBI._eval(BuiltInsForMultipleTypes.java:597)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.relevantcodes.extentreports.HTMLReporter.flush(HTMLReporter.java:173)
+	at com.relevantcodes.extentreports.Report.flush(Report.java:468)
+	at com.relevantcodes.extentreports.ExtentReports.flush(ExtentReports.java:900)
+	at com.trifacta.scripts.BaseTest.afterSuite(BaseTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:974)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:824)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:722)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+Caused by: java.lang.ClassNotFoundException: java.sql.Date
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:435)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.apache.maven.surefire.booter.IsolatedClassLoader.loadClass(IsolatedClassLoader.java:97)
+	at freemarker.core.BuiltinVariable._eval(BuiltinVariable.java:200)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.BuiltInsForMultipleTypes$dateBI._eval(BuiltInsForMultipleTypes.java:208)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.BuiltInsForMultipleTypes$stringBI._eval(BuiltInsForMultipleTypes.java:597)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.relevantcodes.extentreports.HTMLReporter.flush(HTMLReporter.java:173)
+	at com.relevantcodes.extentreports.Report.flush(Report.java:468)
+	at com.relevantcodes.extentreports.ExtentReports.flush(ExtentReports.java:900)
+	at com.trifacta.scripts.BaseTest.afterSuite(BaseTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:974)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:824)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:722)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+</failure>
+    <system-out><![CDATA[52868 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+52873 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+52875 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+52877 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+52877 [main] DEBUG freemarker.cache  - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/neha.tiwari/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.trifacta.listeners.Listener"/>
+    <listener class-name="com.trifacta.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test parallel="methods" name="Login to Browser, display Product version and Logout(failed)">
+    <classes>
+      <class name="com.trifacta.scripts.Home">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="closeSession"/>
+          <include name="afterSuite"/>
+          <include name="TC_02" invocation-numbers="0"/>
+          <include name="TC_01" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.trifacta.scripts.Home -->
+    </classes>
+  </test> <!-- Login to Browser, display Product version and Logout(failed) -->
+</suite> <!-- Failed suite [Suite] -->
