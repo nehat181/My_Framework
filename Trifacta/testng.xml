@@ -10,7 +10,7 @@
 
 	</listeners>
 
-	<test name="Login to Browser, display Product version and Logout" >
+	<test name="Login to Browser, display Product version" >
 		<classes>
 			
 			<class name="com.trifacta.scripts.Home" />
